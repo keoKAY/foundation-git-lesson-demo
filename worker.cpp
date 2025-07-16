@@ -7,6 +7,19 @@ class Worker{
         string workerName; 
         string gender; 
 };
+class SalaryCalculator{
+    private: 
+        float wage; 
+        float hour; 
+};
+
+class Manager{
+    public: 
+        int managerId; 
+        string namagerName; 
+        string gender; 
+    
+}; 
 int main(){
     system("clear"); 
     cout<<"Hello from the worker "; 
